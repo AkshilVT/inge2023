@@ -36,10 +36,10 @@ function Hero() {
                     className="!z-50"
                     animate={{
                         opacity: [0, 1, 1],
-                        scale: [0.5, 1, 1],
+                        scale: [150, 1, 1],
                         rotate: [-90, -90, 0],
                     }}
-                    transition={{ duration: 2, delay: 0 }}
+                    transition={{ duration: 4, delay: 0 }}
                 >
                     <Image
                         src="/saber-green.png"
