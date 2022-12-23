@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import React from 'react'
@@ -25,13 +26,29 @@ function Hero() {
                     ingenious HACKATHoN
                 </h2>
             </div>
-            <div className="space-x-2 mt-32">
-                <Image
-                    src="/saber-green.png"
-                    width={700}
-                    height={700}
-                    alt={'Green Saber'}
+            <div className="space-x-2 mt-[4rem]">
+                <motion.div
+                    className="bg-black w-screen h-screen fixed !z-10 top-0 left-0"
+                    animate={{ opacity: [1, 0] }}
+                    transition={{ duration: 3, delay: 0 }}
                 />
+                <motion.div
+                    className="!z-50"
+                    animate={{
+                        opacity: [0, 1, 1],
+                        scale: [0.5, 1, 1],
+                        rotate: [-90, -90, 0],
+                    }}
+                    transition={{ duration: 2, delay: 0 }}
+                >
+                    <Image
+                        src="/saber-green.png"
+                        width={700}
+                        height={700}
+                        className="!z-50"
+                        alt={'Green Saber'}
+                    />
+                </motion.div>
                 <Timer deadline="2023-01-28" />
             </div>
         </div>
