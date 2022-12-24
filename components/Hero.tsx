@@ -2,11 +2,10 @@ import { motion } from 'framer-motion'
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 import React from 'react'
-// import Timer from './Timer';
 const Timer = dynamic(() => import('./Timer'), { ssr: false })
 function Hero() {
     return (
-        <div className="max-w-screen-2xl flex flex-col justify-around items-center w-full">
+        <div className="max-w-screen-2xl h-screen flex flex-col justify-around items-center w-full bg-[url('/herobg.png')] bg-no-repeat bg-cover px-10">
             <aside className="space-y-4 w-full text-right">
                 <h2 className="font-itc-avant text-xl tracking-[.4em] text-[#788596] uppercase">
                     Join us at
@@ -18,7 +17,7 @@ function Hero() {
                     Made by yours
                 </h3>
             </aside>
-            <div className="relative w-full text-center mt-32">
+            <div className="relative w-full text-center">
                 <h2 className="text-7xl scale-125 opacity-10 font-star-hollow tracking-widest absolute -top-10  w-full">
                     ingenious HACKATHoN
                 </h2>
@@ -26,7 +25,7 @@ function Hero() {
                     ingenious HACKATHoN
                 </h2>
             </div>
-            <div className="space-x-2 mt-[4rem]">
+            <div className="h-1/2 flex flex-col justify-around">
                 <motion.div
                     className="bg-black w-screen h-screen fixed !z-10 top-0 left-0"
                     animate={{ opacity: [1, 0] }}
@@ -39,7 +38,7 @@ function Hero() {
                         scale: [150, 1, 1],
                         rotate: [-90, -90, 0],
                     }}
-                    transition={{ duration: 4, delay: 0 }}
+                    transition={{ duration: 2, delay: 0 }}
                 >
                     <Image
                         src="/saber-green.png"

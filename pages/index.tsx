@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import AboutUs from '../components/AboutUs'
 import Hero from '../components/Hero'
+import Prizes from '../components/Prizes'
 
 const Home: NextPage = () => {
     return (
@@ -16,8 +18,10 @@ const Home: NextPage = () => {
             <div className="fixed top-0 font-aurebesh opacity-[.15] text-9xl text-white marquee">
                 IngeniousHackathon
             </div>
-            <main className="text-white h-full w-screen flex flex-col items-center justify-center px-10 mt-16">
+            <main className="text-white h-full w-screen flex flex-col items-center justify-center relative">
                 <Hero />
+                <Prizes />
+                <AboutUs />
             </main>
         </div>
     )
