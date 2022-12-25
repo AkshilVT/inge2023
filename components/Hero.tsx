@@ -28,7 +28,10 @@ function Hero() {
             <div className="h-1/2 flex flex-col justify-around">
                 <motion.div
                     className="bg-black w-screen h-screen fixed !z-10 top-0 left-0"
-                    animate={{ opacity: [1, 0] }}
+                    animate={{
+                        opacity: [1, 0],
+                        // visibility: ['block', 'hidden'],
+                    }}
                     transition={{ duration: 3, delay: 0 }}
                 />
                 <motion.div
