@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Prizes from '../components/Prizes'
 import Sponsors from '../components/Sponsors'
+import Tracks from '../components/Tracks'
 
 const Home: NextPage = () => {
     return (
@@ -22,12 +23,27 @@ const Home: NextPage = () => {
                 IngeniousHackathon
             </div>
             <main className="text-white h-full w-screen flex flex-col items-center justify-center relative">
-                <Hero />
-                <Prizes />
-                <AboutUs />
-                <Sponsors />
-                <FAQ />
-                <Footer />
+                <div className="container">
+                    <Hero />
+                </div>
+                <div className="container">
+                    <Prizes />
+                </div>
+                <div className="container">
+                    <AboutUs />
+                </div>
+                <div className="container">
+                    <Tracks />
+                </div>
+                <div className="container">
+                    <Sponsors />
+                </div>
+                <div className="container">
+                    <FAQ />
+                </div>
+                <div className="container">
+                    <Footer />
+                </div>
             </main>
         </div>
     )
