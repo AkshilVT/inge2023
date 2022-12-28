@@ -3,7 +3,7 @@ import Track from './Track'
 
 function Tracks() {
     return (
-        <div className="max-w-screen-2xl h-screen w-full px-10 py-10">
+        <div className="max-w-screen-2xl w-full px-10 py-10">
             <aside className="space-y-4 text-right flex flex-col justify-center">
                 <h2 className="font-itc-avant text-xl tracking-[.4em] text-[#788596] uppercase">
                     Fear is the path to Dark side

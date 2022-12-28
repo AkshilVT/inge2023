@@ -3,7 +3,7 @@ import Slot from './Slot'
 
 function Timeline() {
     return (
-        <div className="max-w-screen-2xl h-screen flex flex-col justify-around items-center w-full px-10 relative">
+        <div className="max-w-screen-2xl flex flex-col items-center w-full px-10 py-10">
             <aside className="space-y-4 w-full text-right h-1/3 flex flex-col justify-center">
                 <h2 className="font-itc-avant text-xl tracking-[.4em] text-[#788596] uppercase">
                     ---Placeholder

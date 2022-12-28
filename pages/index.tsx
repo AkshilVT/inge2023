@@ -33,10 +33,10 @@ const Home: NextPage = () => {
                 <div className="container">
                     <AboutUs />
                 </div>
-                <div className="container">
+                <div className="container ">
                     <Tracks />
                 </div>
-                <div className="container">
+                <div className="container ">
                     <Timeline />
                 </div>
                 <div className="container">
