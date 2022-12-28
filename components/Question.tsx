@@ -5,7 +5,7 @@ function Question({ id, open, setOpen, que, ans }: any) {
         <div
             className={
                 `flex space-x-4 font-itc-avant` +
-                (id === open ? null : ` hover:bg-white/10`)
+                (id === open ? null : ` hover:bg-white/10 cursor-pointer`)
             }
             onClick={() => setOpen(id)}
         >

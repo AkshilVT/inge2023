@@ -12,7 +12,7 @@ function SponsorList() {
                 }
             >
                 <h1
-                    className="sponsor text-3xl "
+                    className="sponsor text-3xl cursor-pointer "
                     onClick={() => {
                         open === 1 ? setOpen(0) : setOpen(1)
                     }}
@@ -52,7 +52,7 @@ function SponsorList() {
                 }
             >
                 <h1
-                    className="sponsor text-3xl"
+                    className="sponsor text-3xl cursor-pointer"
                     onClick={() => {
                         open === 2 ? setOpen(0) : setOpen(2)
                     }}
@@ -92,7 +92,7 @@ function SponsorList() {
                 }
             >
                 <h1
-                    className="sponsor text-3xl"
+                    className="sponsor text-3xl cursor-pointer"
                     onClick={() => {
                         open === 3 ? setOpen(0) : setOpen(3)
                     }}
@@ -132,7 +132,7 @@ function SponsorList() {
                 }
             >
                 <h1
-                    className="sponsor text-3xl"
+                    className="sponsor text-3xl cursor-pointer"
                     onClick={() => {
                         open === 4 ? setOpen(0) : setOpen(4)
                     }}
@@ -172,7 +172,7 @@ function SponsorList() {
                 }
             >
                 <h1
-                    className="sponsor text-3xl"
+                    className="sponsor text-3xl cursor-pointer"
                     onClick={() => {
                         open === 5 ? setOpen(0) : setOpen(5)
                     }}
@@ -212,7 +212,7 @@ function SponsorList() {
                 }
             >
                 <h1
-                    className="sponsor text-3xl"
+                    className="sponsor text-3xl cursor-pointer"
                     onClick={() => {
                         open === 6 ? setOpen(0) : setOpen(6)
                     }}
@@ -252,7 +252,7 @@ function SponsorList() {
                 }
             >
                 <h1
-                    className="sponsor text-3xl"
+                    className="sponsor text-3xl cursor-pointer"
                     onClick={() => {
                         open === 7 ? setOpen(0) : setOpen(7)
                     }}
