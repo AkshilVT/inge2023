@@ -7,18 +7,18 @@ function Hero() {
     return (
         <div className="max-w-screen-2xl h-screen flex flex-col justify-around items-center w-full bg-[url('/herobg.png')] bg-no-repeat bg-cover px-10">
             <aside className="space-y-4 w-full text-right">
-                <h2 className="font-itc-avant text-xl tracking-[.4em] text-[#788596] uppercase">
+                <h2 className="font-itc-avant xl:text-xl text-base tracking-[.4em] text-[#788596] uppercase">
                     Join us at
                 </h2>
-                <h1 className="font-itc-serif uppercase tracking-widest text-3xl">
+                <h1 className="font-itc-serif uppercase tracking-widest xl:text-3xl text-xl">
                     28<sup>th</sup> - 29<sup>th</sup> of Jan 2023
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Made by yours
+                    Madebyyours
                 </h3>
             </aside>
             <div className="relative w-full text-center">
-                <h2 className="text-7xl scale-125 opacity-10 font-star-hollow tracking-widest absolute -top-10  w-full">
+                <h2 className="xl:text-7xl text-5xl scale-125 opacity-10 font-star-hollow tracking-widest absolute -top-10  w-full hidden lg:block">
                     ingenious HACKATHoN
                 </h2>
                 <h2 className="text-5xl font-star tracking-widest">
@@ -47,7 +47,7 @@ function Hero() {
                         src="/saber-green.png"
                         width={700}
                         height={700}
-                        className="!z-50"
+                        className="!z-50 scale-75 md:scale-100"
                         alt={'Green Saber'}
                     />
                 </motion.div>

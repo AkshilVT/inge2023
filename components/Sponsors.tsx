@@ -4,22 +4,22 @@ import SponsorList from './SponsorList'
 
 function Sponsors() {
     return (
-        <div className="max-w-screen-2xl h-screen w-full px-10 relative py-10">
-            <aside className="space-y-4 float-right flex flex-col justify-center">
-                <h2 className="font-itc-avant text-xl tracking-[.4em] text-[#788596] uppercase">
+        <div className="max-w-screen-2xl w-full md:space-y-5 space-y-10 px-10 relative py-10">
+            <aside className="space-y-4 lg:float-right text-right flex flex-col justify-center">
+                <h2 className="font-itc-avant xl:text-xl text-base tracking-[.4em] text-[#788596] uppercase">
                     The Force Awakens
                 </h2>
-                <h1 className="font-itc-serif uppercase tracking-widest text-3xl">
+                <h1 className="font-itc-serif uppercase tracking-widest xl:text-3xl text-xl">
                     The Sponsors
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Money $$ baby
+                    Money$$baby
                 </h3>
             </aside>
             <div className="flex space-x-8 items-center justify-start">
-                <div className="relative w-72 h-72 flex justify-center items-end">
+                <div className="relative w-72 h-72 md:flex justify-center items-end hidden">
                     <Image
-                        className="absolute top-0 left-0 z-10"
+                        className="absolute top-0 left-0 z-10 scale-75 lg:scale-100"
                         src="/sponsor-nl.png"
                         width={300}
                         height={300}
@@ -27,15 +27,15 @@ function Sponsors() {
                     />
                     <div className=" w-60 h-60 bg-[#FEE4B7] opacity-50 blur-[136px]"></div>
                 </div>
-                <h1 className="text-[#788596] text-3xl font-itc-avant">
+                <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">
                     Interested in Working with Us?
                 </h1>
             </div>
             <div className=" space-y-16 text-center">
-                <h1 className="text-[#788596] text-3xl font-itc-avant">
+                <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">
                     Previous Sponsors
                 </h1>
-                <div className="relative w-full">
+                <div className="relative w-full h-[2100px] md:h-[1500px] lg:h-[500px]">
                     <SponsorList />
                 </div>
             </div>

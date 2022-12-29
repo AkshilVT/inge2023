@@ -4,19 +4,19 @@ import Question from './Question'
 function FAQ() {
     const [id, setId] = React.useState(0)
     return (
-        <div className="max-w-screen-2xl h-screen flex flex-col justify-around items-center w-full px-10 relative">
+        <div className="max-w-screen-2xl flex flex-col justify-around items-center w-full px-10 relative space-y-10">
             <aside className="space-y-4 w-full text-right h-1/3 flex flex-col justify-center">
-                <h2 className="font-itc-avant text-xl tracking-[.4em] text-[#788596] uppercase">
+                <h2 className="font-itc-avant xl:text-xl text-base tracking-[.4em] text-[#788596] uppercase">
                     The Questions
                 </h2>
-                <h1 className="font-itc-serif uppercase tracking-widest text-3xl">
+                <h1 className="font-itc-serif uppercase tracking-widest xl:text-3xl text-xl">
                     FAQs
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Ask away betches
+                    Askawaybetches
                 </h3>
             </aside>
-            <div className="w-full h-full relative">
+            <div className="w-full relative h-[900px] md:h-[700px]">
                 <div className="absolute space-y-4 z-10 w-full">
                     <Question
                         id={0}

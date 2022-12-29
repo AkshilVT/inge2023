@@ -2,9 +2,9 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className="w-full max-w-screen-2xl h-screen">
+        <div className="w-full max-w-screen-2xl h-max">
             <div className="border-8 w-full shadow-[0_0px_7.5px_0px_rgba(255,255,255,5)]"></div>
-            <div className="h-full flex flex-col justify-between items-center w-full p-10 relative bg-[url('/footer.png')] bg-no-repeat bg-cover">
+            <div className="h-full flex flex-col justify-between items-center w-full p-10 relative bg-[url('/footer.png')] bg-no-repeat bg-cover bg-center md:bg-left">
                 <div className="space-y-4 font-itc-avant max-w-[450px] my-8">
                     <div className="w-full border-b-2 border-[#B1B1B1] bg-white/5">
                         <div className="border-b-8 border-b-white shadow-[0_0px_7.5px_0px_rgba(255,255,255,0.5)] w-full"></div>

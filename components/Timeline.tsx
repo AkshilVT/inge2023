@@ -5,17 +5,24 @@ function Timeline() {
     return (
         <div className="max-w-screen-2xl flex flex-col items-center w-full px-10 py-10">
             <aside className="space-y-4 w-full text-right h-1/3 flex flex-col justify-center">
-                <h2 className="font-itc-avant text-xl tracking-[.4em] text-[#788596] uppercase">
+                <h2 className="font-itc-avant xl:text-xl text-base tracking-[.4em] text-[#788596] uppercase">
                     ---Placeholder
                 </h2>
-                <h1 className="font-itc-serif uppercase tracking-widest text-3xl">
+                <h1 className="font-itc-serif uppercase tracking-widest xl:text-3xl text-xl">
                     The Timeline
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Ready! Set! Go!
+                    Ready!Set!Go!
                 </h3>
             </aside>
-            <section className="w-full flex justify-center space-x-4 p-4">
+            <section className="m-5 block md:hidden">
+                <h3 className="text-xl">
+                    {' '}
+                    To see Timeline,
+                    <br /> Please Open site in Desktop!
+                </h3>
+            </section>
+            <section className="w-full justify-center space-x-4 p-4 hidden md:flex">
                 <div className="grid auto-rows-auto gap-5 items-center">
                     <div className=" opacity-0">helo</div>
                     <Slot

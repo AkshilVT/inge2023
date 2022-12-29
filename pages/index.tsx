@@ -20,7 +20,7 @@ const Home: NextPage = () => {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="fixed top-0 font-aurebesh opacity-[.15] text-9xl text-white marquee">
+            <div className="fixed hidden lg:block top-0 font-aurebesh opacity-[.15] text-9xl text-white marquee">
                 IngeniousHackathon
             </div>
             <main className="text-white h-full w-screen flex flex-col items-center justify-center relative">

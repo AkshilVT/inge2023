@@ -19,7 +19,7 @@ export default function Timer({ deadline = new Date().toString() }) {
     }, [])
 
     return (
-        <div className="flex justify-center text-3xl font-itc-avant">
+        <div className="flex justify-center xl:text-3xl md:text-xl text-base font-itc-avant">
             {Object.entries({
                 Days: time / DAY,
                 Hours: (time / HOUR) % 24,
