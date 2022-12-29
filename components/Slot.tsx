@@ -11,7 +11,7 @@ function Slot({ align, heading, event }: any) {
             <p
                 className={
                     'absolute  ' +
-                    (align === 'right'
+                    (align === 'right '
                         ? '-right-3 top-[7px]'
                         : ' -left-3 rotate-180 top-[9px]')
                 }
