@@ -3,7 +3,7 @@ import React from 'react'
 function AboutUs() {
     return (
         <div className="max-w-screen-2xl flex flex-col justify-around items-center w-full sm:p-10 px-2 py-10">
-            <div className="h-full sm:max-h-[642px] bg-[url('/aboutus.png')] bg-no-repeat bg-cover bg-right lg:bg-left w-full p-20">
+            <div className="h-full sm:min-h-[642px] bg-[url('/aboutus.png')] bg-no-repeat bg-cover bg-right lg:bg-left w-full p-20">
                 <aside className="space-y-4 w-full text-right">
                     <h2 className="font-itc-avant xl:text-xl text-base tracking-[.4em] text-[#788596] uppercase">
                         Hello There!
