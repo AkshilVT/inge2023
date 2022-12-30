@@ -4,6 +4,17 @@ import Image from 'next/image'
 import React from 'react'
 const Timer = dynamic(() => import('./Timer'), { ssr: false })
 function Hero() {
+    React.useEffect(() => {
+        const script = document.createElement('script')
+        script.src = 'https://apply.devfolio.co/v2/sdk.js'
+        script.async = true
+        script.defer = true
+        document.body.appendChild(script)
+        return () => {
+            document.body.removeChild(script)
+        }
+    }, [])
+
     return (
         <div className="max-w-screen-2xl h-screen flex flex-col justify-around items-center w-full bg-[url('/herobg.png')] bg-no-repeat bg-cover px-10">
             <aside className="space-y-4 w-full text-right">
@@ -52,6 +63,14 @@ function Hero() {
                     />
                 </motion.div>
                 <Timer deadline="2023-01-28" />
+                <div className="justify-center mx-auto">
+                    <div
+                        className="apply-button"
+                        data-hackathon-slug="ingenious-hackathon-4"
+                        data-button-theme="light"
+                        style={{ height: '44px', width: '312px' }}
+                    ></div>
+                </div>
             </div>
         </div>
     )
