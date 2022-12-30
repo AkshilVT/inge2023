@@ -13,7 +13,7 @@ function Sponsors() {
                     The Sponsors
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Money$$baby
+                    Money$$
                 </h3>
             </aside>
             <div className="flex space-x-8 items-center justify-start">
@@ -27,9 +27,14 @@ function Sponsors() {
                     />
                     <div className=" w-60 h-60 bg-[#FEE4B7] opacity-50 blur-[136px]"></div>
                 </div>
-                <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">
-                    Interested in Working with Us?
-                </h1>
+                <div className="relative h-[100px] w-full">
+                    <a
+                        href="#footer"
+                        className="text-[#788596] xl:text-3xl text-xl font-itc-avant cursor-pointer absolute inset-0 z-10 hover:text-white/90"
+                    >
+                        Interested in Working with Us?
+                    </a>
+                </div>
             </div>
             <div className=" space-y-16 text-center">
                 <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">

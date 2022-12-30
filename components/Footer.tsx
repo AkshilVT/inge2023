@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className="w-full max-w-screen-2xl ">
+        <div className="w-full max-w-screen-2xl " id="footer">
             <div className="border-8 w-full shadow-[0_0px_7.5px_0px_rgba(255,255,255,5)]"></div>
             <div className="h-full flex flex-col justify-between items-center w-full p-10 relative bg-[url('/footer.png')] bg-no-repeat bg-cover bg-center md:bg-left">
                 <div className="space-y-4 font-itc-avant max-w-[450px] my-8">

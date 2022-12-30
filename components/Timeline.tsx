@@ -12,17 +12,29 @@ function Timeline() {
                     The Timeline
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Ready!Set!Go!
+                    Ready!
                 </h3>
             </aside>
             <section className="m-5 block md:hidden">
-                <h3 className="text-xl">
-                    {' '}
-                    To see Timeline,
-                    <br /> Please Open site in Desktop!
-                </h3>
+                <div className="grid place-items-center sm:hidden">
+                    <Slot
+                        align="right"
+                        heading="0800"
+                        event="Hackathon Begins"
+                    />
+                    <Slot
+                        align="right"
+                        heading="0800"
+                        event="Hackathon Begins"
+                    />
+                    <Slot
+                        align="right"
+                        heading="0800"
+                        event="Hackathon BeginsBeginsBeginsBegins"
+                    />
+                </div>
             </section>
-            <section className="w-full justify-center space-x-4 p-4 hidden md:flex">
+            <section className="w-full justify-center space-x-4 p-4 hidden sm:flex">
                 <div className="grid auto-rows-auto gap-5 items-center">
                     <div className=" opacity-0">helo</div>
                     <Slot

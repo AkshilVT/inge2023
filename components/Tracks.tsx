@@ -6,13 +6,13 @@ function Tracks() {
         <div className="max-w-screen-2xl w-full px-10 py-10">
             <aside className="space-y-4 text-right flex flex-col justify-center">
                 <h2 className="font-itc-avant xl:text-xl text-base tracking-[.4em] text-[#788596] uppercase">
-                    Fear is the path to Dark side
+                    Welcome to Dark side
                 </h2>
                 <h1 className="font-itc-serif uppercase tracking-widest xl:text-3xl text-xl">
                     The Tracks
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Chooseyourown
+                    Choose
                 </h3>
             </aside>
             <div className="w-full grid lg:grid-cols-3 md:grid-cols-2 gap-5 my-8">

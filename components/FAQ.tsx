@@ -13,7 +13,7 @@ function FAQ() {
                     FAQs
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Askawaybetches
+                    Askaway
                 </h3>
             </aside>
             <div className="w-full relative h-[900px] md:h-[700px]">

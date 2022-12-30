@@ -13,7 +13,7 @@ function Prizes() {
                     The Prizes
                 </h1>
                 <h3 className="font-aurebesh text-sm tracking-[1.33em] text-[#788596]">
-                    Trulyoneandonly
+                    Trulyone
                 </h3>
             </aside>
             <div className="absolute xl:top-10 lg:top-5 top-0 lg:left-0 -left-20 rotate-[17deg]">
@@ -34,7 +34,7 @@ function Prizes() {
                         perks="25000"
                     />
                 </div>
-                <div className="flex justify-around md:flex-row flex-col space-y-5 md:space-y-0">
+                <div className="flex justify-around items-center md:flex-row flex-col space-y-5 md:space-y-0">
                     <Podium
                         variant={0}
                         name="2st Place"
@@ -48,7 +48,7 @@ function Prizes() {
                         perks="25000"
                     />
                 </div>
-                <div className="flex justify-between md:flex-row flex-col space-y-5 md:space-y-0">
+                <div className="flex justify-between items-center md:flex-row flex-col space-y-5 md:space-y-0">
                     <Podium
                         variant={1}
                         name="Best Beginner Hack"
