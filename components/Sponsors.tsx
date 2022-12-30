@@ -38,12 +38,20 @@ function Sponsors() {
             </div>
             <div className=" space-y-16 text-center">
                 <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">
-                    Previous Sponsors
+                    Sponsors
                 </h1>
                 <div className="relative w-full h-[2100px] md:h-[1500px] lg:h-[500px]">
                     <SponsorList />
                 </div>
             </div>
+            {/* <div className=" space-y-16 text-center">
+                <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">
+                    Previous Sponsors
+                </h1>
+                <div className="relative w-full h-[2100px] md:h-[1500px] lg:h-[500px]">
+                    <SponsorList />
+                </div>
+            </div> */}
         </div>
     )
 }

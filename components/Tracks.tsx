@@ -38,10 +38,10 @@ Diseases And Many More."
                 <Track
                     track="Security Net"
                     money="2500"
-                    desc="Build Something That Makes Us Safer. This
+                    desc="Build Safer that
 Can Range From Saving Humanity From
 Aliens To Saving Yourself From Your Neighbour's
-Kid (Who Has Newly Learnt Pen- Testing) To
+Kid To
 Making Your Area Safer From The Creeps That
 Make It."
                 />

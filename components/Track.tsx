@@ -9,9 +9,9 @@ function Track({ track, money, desc }: any) {
                     <p className="w-full tracking-widest lg:text-2xl text-lg">
                         {track}
                     </p>
-                    <p className="w-full lg:text-lg text-base text-white/60">
+                    {/* <p className="w-full lg:text-lg text-base text-white/60">
                         Track Prize: ₹{money}
-                    </p>
+                    </p> */}
                     <p className="text-white/40 tracking-widest text-base">
                         {desc}
                     </p>

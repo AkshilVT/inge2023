@@ -53,19 +53,19 @@ function Footer() {
                                     rel="noopener noreferrer"
                                     className="p-4 border border-white/40 hover:bg-white/40 cursor-pointer"
                                 >
-                                    Insta
+                                    Instagram
                                 </a>
                                 <a
                                     href="tel:+91-8320161492"
                                     className="p-4 border border-white/40 hover:bg-white/40 cursor-pointer"
                                 >
-                                    kavan
+                                    Kavan Gondalia
                                 </a>
                                 <a
                                     href="tel:+91-7220020004"
                                     className="p-4 border border-white/40 hover:bg-white/40 cursor-pointer"
                                 >
-                                    prasan
+                                    Prasan Singh
                                 </a>
                             </div>
                             <h2 className="text-xl font-itc-serif text-white/70 text-center mt-4">

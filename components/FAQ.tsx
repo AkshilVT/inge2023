@@ -34,32 +34,39 @@ function FAQ() {
                         id={1}
                         open={id}
                         setOpen={setId}
-                        que="Who can participate?"
-                        ans="he maximum age of the participant must be 25. He must not necessarily be a college student."
+                        que="What's the mode of Hackathon?"
+                        ans="The Ingenious Hackathon 4.0 is in Hybrid Mode. On the basis of registration of teams, few teams will be selected for offline (rest online) and they will receive mail separately."
                     />
                     <Question
                         id={2}
+                        open={id}
+                        setOpen={setId}
+                        que="Who can participate?"
+                        ans="The maximum age of the participant must be 25. He must not necessarily be a college student."
+                    />
+                    <Question
+                        id={3}
                         open={id}
                         setOpen={setId}
                         que="What are the dates?"
                         ans="28th-29th January, 2023"
                     />
                     <Question
-                        id={3}
+                        id={4}
                         open={id}
                         setOpen={setId}
                         que="What is the team size?"
                         ans="3-5 people. Lone-wolves strictly not allowed."
                     />
                     <Question
-                        id={4}
+                        id={5}
                         open={id}
                         setOpen={setId}
                         que="What should I bring?"
-                        ans="A valid government issued photo ID and/or your college issued photo ID, laptop, phone, chargers and your favorite blanket. (we'll be providing mattresses)."
+                        ans="A valid government issued photo ID and/or your college issued photo ID, laptop, phone, chargers and your favorite blanket. (We'll be providing mattresses)."
                     />
                     <Question
-                        id={5}
+                        id={6}
                         open={id}
                         setOpen={setId}
                         que="What items are prohibited?"

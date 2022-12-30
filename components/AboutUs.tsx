@@ -16,13 +16,15 @@ function AboutUs() {
                     </h3>
                 </aside>
                 <p className="float-right w-full xl:max-w-xl lg:max-w-md font-itc-serif xl:text-xl text-base tracking-wide mt-16 ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                    blanditiis adipisci obcaecati ullam sed, quos totam placeat
-                    porro eum dolore quasi beatae atque necessitatibus in
-                    aperiam! Optio, mollitia! Assumenda, nostrum fuga. Totam
-                    fugiat fugit nisi at aliquam quo voluptate aspernatur odit!
-                    In architecto minima eius blanditiis quidem amet placeat
-                    fugit.
+                    The Ingenious Hackathon is a 36-hour intensive coding
+                    competition. The problems are of a wide range and designed
+                    while keeping in mind an industry-oriented approach, with
+                    support from many partner companies. This event has been, in
+                    the past, one of the most sought after and prestigious
+                    events of the festival with a large footfall from across the
+                    state. Every team works on the selected problem and is
+                    evaluated for their progress, innovation, and the
+                    practicality of their work, on regular intervals.
                 </p>
             </div>
         </div>
