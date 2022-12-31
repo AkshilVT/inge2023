@@ -16,7 +16,7 @@ function FAQ() {
                     Askaway
                 </h3>
             </aside>
-            <div className="w-full relative h-[900px] md:h-[700px]">
+            <div className="w-full relative h-[1040px] md:h-[700px]">
                 <div className="absolute space-y-4 z-10 w-full">
                     <Question
                         id={0}
