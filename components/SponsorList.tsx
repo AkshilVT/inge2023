@@ -10,13 +10,13 @@ function SponsorList() {
                     <h2 className="text-xl w-full border-b-2">
                         Title Sponsors
                     </h2>
-                    <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center gap-3"></div>
+                    <div className="w-full grid grid-cols-2 md:grid-cols-3 mt-5 place-items-center gap-3"></div>
                 </div>
                 <div className="">
                     <h2 className="text-xl w-full  border-b-2">
                         Platinum Sponsors
                     </h2>
-                    <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center gap-3">
+                    <div className="w-full grid grid-cols-2 md:grid-cols-3 mt-5 place-items-center gap-3">
                         <a href="https://devfolio.co/" target="blank">
                             <Image
                                 src={'/sponsors/platinum/devfolio.png'}
@@ -41,7 +41,7 @@ function SponsorList() {
                     <h2 className="text-xl w-full  border-b-2">
                         Diamond Sponsors
                     </h2>
-                    <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center gap-3">
+                    <div className="w-full grid grid-cols-2 md:grid-cols-3 mt-5 place-items-center gap-3">
                         <a href="https://solana.com/" target="blank">
                             <Image
                                 src={'/sponsors/diamond/solana.png'}
@@ -75,19 +75,19 @@ function SponsorList() {
                     <h2 className="text-xl w-full  border-b-2">
                         Gold Sponsors
                     </h2>
-                    <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center gap-3"></div>
+                    <div className="w-full grid grid-cols-2 md:grid-cols-3 mt-5 place-items-center gap-3"></div>
                 </div>
                 <div className="">
                     <h2 className="text-xl w-full  border-b-2">
                         Silver Sponsors
                     </h2>
-                    <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center gap-3"></div>
+                    <div className="w-full grid grid-cols-2 md:grid-cols-3 mt-5 place-items-center gap-3"></div>
                 </div>
                 <div className="">
                     <h2 className="text-xl w-full  border-b-2">
                         Bronze Sponsors
                     </h2>
-                    <div className="w-full grid grid-cols-2 md:grid-cols-3 place-items-center gap-3"></div>
+                    <div className="w-full grid grid-cols-2 md:grid-cols-3 mt-5 place-items-center gap-3"></div>
                 </div>
             </div>
             <div className="lg:flex absolute z-10 w-full space-x-4 hidden font-itc-avant">
@@ -106,7 +106,7 @@ function SponsorList() {
                         Title
                     </h1>
                     {open === 1 && (
-                        <div className="w-full grid grid-cols-3 place-items-center gap-3"></div>
+                        <div className="w-full mt-5 grid grid-cols-3 place-items-center gap-3"></div>
                     )}
                 </div>
                 {/* <div
@@ -124,7 +124,7 @@ function SponsorList() {
                         Associate
                     </h1>
                     {open === 2 && (
-                        <div className="w-full grid grid-cols-3 place-items-center gap-3">
+                        <div className="w-full mt-5 grid grid-cols-3 place-items-center gap-3">
 
                         </div>
                     )}
@@ -144,7 +144,7 @@ function SponsorList() {
                         Platinum
                     </h1>
                     {open === 3 && (
-                        <div className="w-full grid grid-cols-3 place-items-center gap-3">
+                        <div className="w-full mt-5 grid grid-cols-3 place-items-center gap-3">
                             <a href="https://devfolio.co/" target="blank">
                                 <Image
                                     src={'/sponsors/platinum/devfolio.png'}
@@ -184,7 +184,7 @@ function SponsorList() {
                         Diamond
                     </h1>
                     {open === 4 && (
-                        <div className="w-full grid grid-cols-3 place-items-center gap-3">
+                        <div className="w-full mt-5 grid grid-cols-3 place-items-center gap-3">
                             <a href="https://solana.com/" target="blank">
                                 <Image
                                     src={'/sponsors/diamond/solana.png'}
@@ -230,7 +230,7 @@ function SponsorList() {
                         Gold
                     </h1>
                     {open === 5 && (
-                        <div className="w-full grid grid-cols-3 place-items-center gap-3"></div>
+                        <div className="w-full mt-5 grid grid-cols-3 place-items-center gap-3"></div>
                     )}
                 </div>
                 <div
@@ -248,7 +248,7 @@ function SponsorList() {
                         Silver
                     </h1>
                     {open === 6 && (
-                        <div className="w-full grid grid-cols-3 place-items-center gap-3"></div>
+                        <div className="w-full mt-5 grid grid-cols-3 place-items-center gap-3"></div>
                     )}
                 </div>
                 <div
@@ -266,7 +266,7 @@ function SponsorList() {
                         Bronze
                     </h1>
                     {open === 7 && (
-                        <div className="w-full grid grid-cols-3 place-items-center gap-3"></div>
+                        <div className="w-full mt-5 grid grid-cols-3 place-items-center gap-3"></div>
                     )}
                 </div>
             </div>

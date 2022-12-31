@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import SponsorList from './SponsorList'
+import Partners from './Partners'
 
 function Sponsors() {
     return (
@@ -40,8 +41,14 @@ function Sponsors() {
                 <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">
                     Sponsors
                 </h1>
-                <div className="relative w-full h-[2100px] md:h-[1500px] lg:h-[500px]">
+                <div className="md:relative w-full md:h-[1500px] lg:h-[500px]">
                     <SponsorList />
+                </div>
+                <h1 className="text-[#788596] xl:text-3xl text-xl font-itc-avant">
+                    Partners
+                </h1>
+                <div className="w-full">
+                    <Partners />
                 </div>
             </div>
             {/* <div className=" space-y-16 text-center">
