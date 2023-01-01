@@ -32,7 +32,7 @@ function Hero() {
                 <h2 className="xl:text-7xl text-5xl scale-125 opacity-10 font-star-hollow tracking-widest absolute -top-10  w-full hidden lg:block">
                     ingenious HACKATHoN
                 </h2>
-                <h2 className="text-5xl font-star tracking-widest">
+                <h2 className="sm:text-5xl text-4xl font-star tracking-widest">
                     ingenious HACKATHoN
                 </h2>
             </div>
