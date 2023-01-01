@@ -36,7 +36,7 @@ const Home: NextPage = () => {
             <div className="fixed hidden lg:block top-0 font-aurebesh opacity-[.15] text-9xl text-white marquee">
                 IngeniousHackathon
             </div>
-            <main className="text-white h-full w-screen flex flex-col items-center justify-center relative">
+            <main className="text-white h-full w-screen flex flex-col items-center justify-center relative mx-auto">
                 <div className="container">
                     <Hero />
                 </div>
