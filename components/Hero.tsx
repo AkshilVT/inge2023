@@ -63,9 +63,17 @@ function Hero() {
                     />
                 </motion.div>
                 <Timer deadline="2023-01-28" />
-                <div className="justify-center mx-auto relative">
+                <div
+                    className="justify-center mx-auto relative w-full bg-black !z-50"
+                    onClick={() => {
+                        console.log('afnjka')
+                    }}
+                >
                     <div
-                        className="apply-button absolute inset-0 !z-50 cursor-pointer"
+                        onClick={() => {
+                            console.log('njka')
+                        }}
+                        className="apply-button !z-50 cursor-pointer"
                         data-hackathon-slug="ingenious-hackathon-4"
                         data-button-theme="dark-inverted"
                         style={{ height: '44px', width: '312px' }}
