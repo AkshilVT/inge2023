@@ -11,7 +11,7 @@ import Tracks from '../components/Tracks'
 
 const Home: NextPage = () => {
     return (
-        <div className="relative">
+        <div className="w-[100%] overflow-hidden">
             <Head>
                 <title>Ingenious Hackathon 4.0</title>
                 <meta
@@ -36,11 +36,11 @@ const Home: NextPage = () => {
             <div className="fixed hidden lg:block top-0 font-aurebesh opacity-[.15] text-9xl text-white marquee">
                 IngeniousHackathon
             </div>
-            <main className="text-white h-full w-screen flex flex-col items-center justify-center relative mx-auto">
+            <main className="text-white h-full sm:w-screen flex flex-col items-center justify-center relative mx-auto sm:mx-0">
                 <div className="container">
                     <Hero />
                 </div>
-                <div className="container">
+                <div className="w-full">
                     <Prizes />
                 </div>
                 <div className="container">
