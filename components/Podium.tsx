@@ -20,11 +20,11 @@ function Podium({ variant, name, money, perks }: any) {
                         width={400}
                         height={100}
                         alt="podium"
-                        className="xl:scale-100 scale-90"
+                        className="xl:scale-100 scale-110"
                     />
                 </div>
             ) : (
-                <div className="space-y-4 lg:mx-0 md:mx-4 mx-0 font-itc-avant w-[360px]">
+                <div className="space-y-4 lg:mx-0 md:mx-4 mx-0 font-itc-avant w-[300px] sm:w-[360px]">
                     <div className="w-full border-t-2 border-[#B1B1B1] bg-white/5">
                         <div className="flex justify-between items-center p-2">
                             <p className=" tracking-widest xl:text-lg text-base">

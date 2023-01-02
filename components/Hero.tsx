@@ -16,7 +16,7 @@ function Hero() {
     }, [])
 
     return (
-        <div className="max-w-screen-2xl h-screen flex flex-col justify-around items-center w-full bg-[url('/herobg.png')] bg-no-repeat bg-cover md:px-10">
+        <div className="max-w-screen-2xl h-screen flex flex-col justify-around items-center w-full bg-[url('/herobg.png')] bg-no-repeat bg-cover px-4 md:px-10">
             <aside className="space-y-4 w-full text-right">
                 <h2 className="font-itc-avant xl:text-xl text-base tracking-[.4em] text-[#788596] uppercase">
                     Join us at
