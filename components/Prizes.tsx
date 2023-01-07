@@ -34,7 +34,7 @@ function Prizes() {
                         perks="25000"
                     />
                 </div>
-                <div className="flex justify-around items-center md:flex-row flex-col space-y-5 md:space-y-0">
+                <div className="flex justify-around items-center md:flex-row flex-col space-y-5 mt-5 md:space-y-0">
                     <Podium
                         variant={0}
                         name="2st Place"
@@ -48,7 +48,7 @@ function Prizes() {
                         perks="25000"
                     />
                 </div>
-                <div className="flex justify-between items-center md:flex-row flex-col space-y-5 md:space-y-0">
+                <div className="flex justify-between items-center md:flex-row flex-col space-y-5 mt-5 md:space-y-0">
                     <Podium
                         variant={1}
                         name="Best Beginner Hack"

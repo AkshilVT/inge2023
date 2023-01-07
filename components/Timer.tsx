@@ -30,7 +30,7 @@ export default function Timer({ deadline = new Date().toString() }) {
                     key={label}
                     className={(i === 3 ? null : 'border-r') + ' text-center'}
                 >
-                    <div className="container px-6 py-4">
+                    <div className="container px-4 sm:px-6 py-4">
                         <p>{`${Math.floor(value)}`.padStart(2, '0')}</p>
                         <span className="text">{label}</span>
                     </div>
