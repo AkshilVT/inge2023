@@ -56,7 +56,7 @@ function FAQ() {
                         open={id}
                         setOpen={setId}
                         que="What is the team size?"
-                        ans="3-5 people. Lone-wolves strictly not allowed."
+                        ans="1-5 people. Lone-wolves are allowed."
                     />
                     <Question
                         id={5}
